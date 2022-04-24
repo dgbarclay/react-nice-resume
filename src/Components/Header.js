@@ -4,12 +4,12 @@ import Fade from "react-reveal";
 
 class Header extends Component {
   render() {
-    if (!this.props.data) return null;
-
-    const project = this.props.data.project;
-    const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
+    const project = "https://www.overleaf.com/read/wjddkbvhxrfb";
+    const github = "https://github.com/dgbarclay";
+    const name = "Multi-Label Zero-Shot Learning";
+    const description = "I am a third year student at the University of Exeter and this is my\
+      final project demonstration. Throughout, you will see how we are able to use Multi-Label\
+      Zero-Shot Learning to perform facial emotion recognition";
 
     return (
       <header id="home">
@@ -37,20 +37,8 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
+              <a className="smoothscroll" href="#project">
+                Project
               </a>
             </li>
           </ul>
