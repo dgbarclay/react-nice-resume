@@ -7,6 +7,7 @@ class Header extends Component {
     const project = "https://www.overleaf.com/read/wjddkbvhxrfb";
     const github = "https://github.com/dgbarclay";
     const name = "Multi-Label Zero-Shot Learning";
+    
     const description = "I am a third year student at the University of Exeter and this is my\
       final project demonstration. Throughout, you will see how we are able to use Multi-Label\
       Zero-Shot Learning to perform facial emotion recognition";
